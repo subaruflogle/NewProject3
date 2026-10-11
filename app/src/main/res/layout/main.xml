@@ -1,0 +1,57 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#000000"
+	android:layoutDirection="rtl">
+	<LinearLayout
+		android:id="@+id/linearMain"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="24dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/tvTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="24dp"
+			android:text="شحن العاب2"
+			android:textSize="28sp"
+			android:textStyle="bold"
+			android:textColor="#FF0000" />
+		<EditText
+			android:id="@+id/etPassword"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="16dp"
+			android:background="#1A1A1A"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"
+			android:hint="أدخل كلمة السر"
+			android:textColorHint="#808080"
+			android:inputType="numberPassword"
+			android:paddingHorizontal="16dp" />
+		<Button
+			android:id="@+id/btnLogin"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="12dp"
+			android:background="#FF0000"
+			android:text="دخول"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<Button
+			android:id="@+id/btnGetCode"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="#330000"
+			android:text="الحصول على الرمز"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FF0000" />
+	</LinearLayout>
+</RelativeLayout>
